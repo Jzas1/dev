@@ -1,0 +1,6 @@
+{
+    "mongoURI":"mongodb+srv://Joseph:1234@cluster0.kgela.mongodb.net/test",
+    "jwtSecret": "mysecrettoken",
+    "githubClientId": "848f008c4ada4489d843",
+    "githubSecret": "874952165b437272515fc94d265b446d497ddbe0"
+}
