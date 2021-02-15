@@ -9,7 +9,6 @@ connectDB();
 // Init Middleware
 app.use(express.json());
 
-console.log(process.env.NODE_ENV)
 
 
 // Define Routes
@@ -29,7 +28,6 @@ if (process.env.NODE_ENV === 'production') {
     });
 }
 
-console.log(process.env.NODE_ENV)
 
 const PORT = process.env.PORT || 5000;
 
